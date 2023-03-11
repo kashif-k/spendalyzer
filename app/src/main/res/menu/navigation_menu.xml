@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/option_home"
+        android:icon="@drawable/blk_home"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/option_spending"
+        android:icon="@drawable/blk_money"
+        android:title="@string/spendings" />
+    <item
+        android:id="@+id/option_analyze"
+        android:icon="@drawable/blk_analytics"
+        android:title="@string/analyze" />
+    <item
+        android:id="@+id/option_date"
+        android:icon="@drawable/blk_date_range"
+        android:title="@string/transactions_by_date" />
+    <!--<item
+        android:id="@+id/option_cash_add"
+        android:icon="@drawable/blk_rupee"
+        android:title="@string/add_cash" />
+    <item
+        android:id="@+id/option_all_cash"
+        android:title="@string/cash_transactions"
+        android:icon="@drawable/blk_cash"
+        />-->
+    <item
+        android:id="@+id/option_help"
+        android:icon="@drawable/blk_help"
+        android:title="@string/help" />
+</menu>

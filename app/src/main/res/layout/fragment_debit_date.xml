@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".CreditDateFragment">
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/debit_date"
+        android:text="@string/select_period"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:padding="10dp" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/debit_date"
+        android:id="@+id/debit_date_sms" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/date_debit_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:textAlignment="center"
+        android:padding="4dp"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
