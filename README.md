@@ -5,4 +5,4 @@ Android app to track your transactions. This app extracts transaction data by on
 UI enhancement
 optimization
 
-### You can download and install Spendalyzer.apk on your device
+### You can download and install Spendalyzer.apk on your device.
